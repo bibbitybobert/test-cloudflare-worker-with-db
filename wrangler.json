@@ -1,0 +1,16 @@
+{
+	"compatibility_date": "2025-10-08",
+	"main": "src/index.ts",
+	"name": "test-cloudflare-worker-with-db",
+	"upload_source_maps": true,
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_id": "6252d3dc-85bd-4274-9c5c-549dbf3d7fa6",
+			"database_name": "retirement_dates_db"
+		}
+	],
+	"observability": {
+		"enabled": true
+	}
+}
